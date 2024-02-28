@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: hsl(0, 0%, 7%);
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+}
+.container {
+    margin-top: 10%;
+    width: 375px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 2%;
+    border: 1px solid hsl(0, 0%, 7%);
+    margin-bottom: 30px;
+    box-shadow: 7px 7px hsl(0, 0%, 7%);
+}
+
+.hero {
+    border-radius: 10px;
+    width: 100%; 
+}
+.btn {
+    width: fit-content;
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-weight:800;
+}
+.Published {
+    margin-bottom: 15px;
+    font-weight:500;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight:800;
+}
+h1 a {
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+}
+a:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.paragraphe {
+    color: hsl(0, 0%, 50%);
+}
+
+.signature {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.profile {
+    width: 30px;
+    margin-right: 5%;
+}
+.profile img {
+    width: 100%;
+}
+.name {
+    font-weight:800;
+}
